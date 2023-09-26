@@ -1,0 +1,16 @@
+@use "./global";
+@use "/styles/theme";
+//header
+@use "./components/header";
+
+
+@use "./sections/section-about-me";
+@use "./sections/section-home";
+@use "./sections/section-contact";
+@use "./sections/section-projects";
+
+//footer
+@use "./components/footer";
+
+//responsive style
+@use "./mobile";
